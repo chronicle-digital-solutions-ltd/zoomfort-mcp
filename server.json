@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.zoomfort/mail",
+  "title": "zoomfort",
+  "description": "Receive-only inbox for AI agent sign-ups: one call returns the verification code. Never sends.",
+  "version": "1.0.0",
+  "websiteUrl": "https://zoomfort.com/docs",
+  "repository": {
+    "url": "https://github.com/chronicle-digital-solutions-ltd/zoomfort-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://zoomfort.com/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["180x180"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mail.zoomfort.com/mcp"
+    }
+  ]
+}
