@@ -17,8 +17,9 @@ The server itself runs at `https://mail.zoomfort.com/mcp`; there is nothing to i
 
 ## Access
 
-zoomfort is invite-only for now. Register interest at https://zoomfort.com/#invite or email
-hello@zoomfort.com. Once your account exists, sign in at https://mail.zoomfort.com/app and create an
+Create a free account at https://zoomfort.com/app/signup. We open 10 new accounts a day; when today's
+places are taken, register interest at https://zoomfort.com/#invite or email hello@zoomfort.com and we
+will send you an invite. Once your account exists, sign in at https://mail.zoomfort.com/app and create an
 address, such as `signup@yourname.zoomfort.com`. Mail to an address you have not created is refused.
 
 ## Tools
