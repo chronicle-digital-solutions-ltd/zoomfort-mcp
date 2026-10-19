@@ -1,0 +1,10 @@
+{
+  "name": "zoomfort",
+  "description": "Receive-only inbox for AI agent sign-ups: one call returns the verification code. Never sends.",
+  "version": "1.0.0",
+  "author": { "name": "zoomfort", "url": "https://zoomfort.com" },
+  "homepage": "https://zoomfort.com/docs",
+  "repository": "https://github.com/chronicle-digital-solutions-ltd/zoomfort-mcp",
+  "license": "MIT-0",
+  "keywords": ["email", "verification-code", "otp", "ai-agents", "sign-up", "inbox"]
+}

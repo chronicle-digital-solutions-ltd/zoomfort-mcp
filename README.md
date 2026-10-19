@@ -115,10 +115,21 @@ REST API. Full reference: https://zoomfort.com/docs
 The agent usage file [`skills/zoomfort/SKILL.md`](skills/zoomfort/SKILL.md) spells this out for Claude Code,
 Cursor, Codex and OpenClaw.
 
+## Install the agent skill
+
+The usage file is also packaged as a Claude Code plugin, so an agent can load it without reading these docs:
+
+```
+/plugin install zoomfort --marketplace chronicle-digital-solutions-ltd/zoomfort-mcp
+```
+
+The plugin holds only the skill. Connect the MCP server or set `ZOOMFORT_API_KEY` as described above.
+
 ## Limits
 
-Each key allows 120 requests a minute and 20 waiting calls a minute (shared by `wait_for_code`,
-`wait_for_link` and REST calls that wait). On Free, ordinary mail is kept 7 days. Plans and limits:
+All keys and connected apps of one account share 120 requests a minute and 20 waiting calls a minute
+(the waiting calls are `wait_for_code`, `wait_for_link` and REST calls that wait), so more keys do not
+raise them. On Free, ordinary mail is kept 7 days. Plans and limits:
 https://zoomfort.com/docs#limits
 
 ## Contact

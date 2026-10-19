@@ -1,0 +1,15 @@
+{
+  "name": "zoomfort",
+  "description": "zoomfort's agent skill: finish email verification during a sign-up with a zoomfort inbox.",
+  "owner": {
+    "name": "zoomfort",
+    "email": "hello@zoomfort.com"
+  },
+  "plugins": [
+    {
+      "name": "zoomfort",
+      "source": "./",
+      "description": "Receive-only inbox for AI agent sign-ups: one call returns the verification code. Never sends."
+    }
+  ]
+}
